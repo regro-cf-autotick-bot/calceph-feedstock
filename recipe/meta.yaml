@@ -7,6 +7,8 @@ package:
 source:
   url: https://www.imcce.fr/content/medias/recherche/equipes/asd/calceph/calceph-{{ version }}.tar.gz
   sha256: 34b7a4fbcbfff3bd54de8f4636fdbb8a8345c7432fbbe3a61a4f5d90b76bb962
+  patches:
+    - win_build_fix.diff
 
 build:
   number: 0
